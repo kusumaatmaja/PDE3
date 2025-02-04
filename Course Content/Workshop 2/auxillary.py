@@ -1,9 +1,20 @@
 # !/bin/usr/python
 
 """This file contains auxillary functions required for Workshop 2.
-These will be imported into the main notebook so you do not need to worry about the implementation details."""
+These will be imported into the main notebook so you do not need to worry about the implementation details.
+
+Thomas Williamson, School of Engingeering
+(c) 2025 The University of Edinburgh 
+License: CC-BY, Creative Commons by Attribution
+
+A previous version of this course was developed by David Ingram, School of Engineering, University of Edinburgh.
+"""
 
 import numpy as np
+try:
+    from scipy.integrate import simpson
+except ImportError:
+    from scipy.integrate import simps as simpson
 
 class Grid:
     """A class defining a 2D grid on which we can implement the Jacobi and SOR iteration schemes."""
@@ -64,9 +75,7 @@ def u_0(u_E: float, u_W: float, u_N: float, u_S: float, delta_x: float = 1., del
 
 def calc_Q(mesh: Grid) -> float:
     """Calculate the value of the integral quantitiy Q to determine the convergence of the scheme."""
-    Q = np.sum(np.square(mesh.u)) * mesh.Delta_x() * mesh.Delta_y()
-
-    return Q
+    return simpson(simpson(np.square(mesh.u), x = mesh.y[0,:]), x = mesh.x[:,0])
 
 def Jacobi_iteration_vs_error(mesh: Grid, iterations_to_sample: list[int] | np.ndarray[float]) -> tuple[np.ndarray[int], np.ndarray[float]]:
     if type(iterations_to_sample) == list:
@@ -128,6 +137,66 @@ def SOR_iteration_vs_error(mesh: Grid, iterations_to_sample: list[int] | np.ndar
         n_iterations += 1
 
     return np.array(iterations, dtype=int), np.array(qs, dtype=float)
+
+def SOR(mesh: Grid, max_iterations: int, tolerance: float) -> tuple[int, float]:
+    """The SOR iteration scheme.
+    
+    Parameters:
+    -----------
+    
+    mesh: Grid
+        The grid on which to implement the SOR iteration.
+    
+    max_iterations: int
+        The maximum number of iterations to perform.
+    
+    tolerance: float
+        The error tolerance.
+    
+    Returns:
+    --------
+    
+    n_iterations: int
+        The number of iterations performed.
+    
+    error: float
+        The error in the solution.
+    """
+
+    # calculate the optimal value of omega
+    lamda = (np.cos(np.pi/mesh.ni)+np.cos(np.pi/mesh.nj))**2/4
+    omega = 2/(1+np.sqrt(1-lamda))
+    
+    # calculate the coefficients
+    beta = mesh.Delta_x()/mesh.Delta_y()
+    beta_sq = beta**2
+    C_beta = 1/(2*(1+beta_sq))
+    
+    # initialise u_new 
+    u_new = mesh.u.copy()
+
+    n_iterations = 0
+    
+    # itteration
+    while n_iterations < max_iterations:
+        for i in range(1,mesh.ni-1):
+            for j in range(1,mesh.nj-1):
+                u_new[i,j] = (1-omega)*mesh.u[i,j] + omega * C_beta*(u_new[i,j-1]+mesh.u[i,j+1]+ beta_sq*(u_new[i-1,j]+mesh.u[i+1,j]))
+        
+        
+        # compute the difference between the new and old solutions
+        err = np.max(abs(mesh.u-u_new))
+        
+        # update the solution
+        mesh.u = np.copy(u_new)
+        
+        # converged?
+        if err < tolerance:
+            break
+        
+        n_iterations += 1
+    
+    return n_iterations, err # return the number of iterations and the final residual
 
 
 if __name__ == "__main__":
