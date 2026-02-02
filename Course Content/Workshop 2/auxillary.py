@@ -11,6 +11,7 @@ A previous version of this course was developed by David Ingram, School of Engin
 """
 
 import numpy as np
+from typing import Union
 try:
     from scipy.integrate import simpson
 except ImportError:
@@ -73,7 +74,7 @@ def calc_Q(mesh: Grid) -> float:
     """Calculate the value of the integral quantitiy Q to determine the convergence of the scheme."""
     return simpson(simpson(np.square(mesh.u), x = mesh.y[0,:]), x = mesh.x[:,0])
 
-def Jacobi_iteration_vs_error(mesh: Grid, iterations_to_sample: list[int] | np.ndarray[float]) -> tuple[np.ndarray[int], np.ndarray[float]]:
+def Jacobi_iteration_vs_error(mesh: Grid, iterations_to_sample: Union[list[int], np.ndarray[float]]) -> tuple[np.ndarray[int], np.ndarray[float]]:
     if type(iterations_to_sample) == list:
         iterations_to_sample = np.array(iterations_to_sample, dtype=int)
     iterations = []
@@ -96,7 +97,7 @@ def Jacobi_iteration_vs_error(mesh: Grid, iterations_to_sample: list[int] | np.n
 
     return np.array(iterations, dtype=int), np.array(qs, dtype=float)
 
-def SOR_iteration_vs_error(mesh: Grid, iterations_to_sample: list[int] | np.ndarray[float]) -> tuple[np.ndarray[int], np.ndarray[float]]:
+def SOR_iteration_vs_error(mesh: Grid, iterations_to_sample: Union[list[int], np.ndarray[float]]) -> tuple[np.ndarray[int], np.ndarray[float]]:
     if type(iterations_to_sample) == list:
         iterations_to_sample = np.array(iterations_to_sample, dtype=int)
     iterations = []
