@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 630 630" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(0.740148,0,0,0.740148,-84.7176,-56.4353)">
+        <rect x="141.029" y="102.845" width="797.938" height="797.883" style="fill:rgb(235,235,235);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-98.4047,-98.4252)">
+        <rect x="236.22" y="236.22" width="354.331" height="354.331" style="fill:rgb(126,165,230);"/>
+    </g>
+    <g id="Grid" transform="matrix(1,0,0,1,-98.4047,-98.4252)">
+        <path d="M177.155,176.862L649.606,177.165" style="fill:none;stroke:black;stroke-width:4.17px;"/>
+        <path d="M177.165,295.276L649.596,295.276" style="fill:none;stroke:black;stroke-width:4.17px;"/>
+        <path d="M177.155,413.386L649.606,413.311" style="fill:none;stroke:black;stroke-width:4.17px;"/>
+        <path d="M177.165,531.496L649.596,531.496" style="fill:none;stroke:black;stroke-width:4.17px;"/>
+        <path d="M177.165,649.606L649.606,649.909" style="fill:none;stroke:black;stroke-width:4.17px;"/>
+        <path d="M177.165,177.165L177.165,649.606" style="fill:none;stroke:black;stroke-width:4.17px;"/>
+        <path d="M295.276,176.862L295.276,649.606" style="fill:none;stroke:black;stroke-width:4.17px;"/>
+        <path d="M413.386,176.862L413.386,649.909" style="fill:none;stroke:black;stroke-width:4.17px;"/>
+        <path d="M531.496,176.862L531.496,649.909" style="fill:none;stroke:black;stroke-width:4.17px;"/>
+        <path d="M649.606,176.862L649.606,649.909" style="fill:none;stroke:black;stroke-width:4.17px;"/>
+    </g>
+    <g id="Points" transform="matrix(1,0,0,1,-98.3944,-92.8228)">
+        <g transform="matrix(1,0,0,1,5.88499,-5.68434e-14)">
+            <g transform="matrix(0.833333,0,0,0.92191,13.7795,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:0.95px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,131.89,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,250,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,368.11,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,486.22,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,5.88499,118)">
+            <g transform="matrix(0.833333,0,0,0.92191,13.7795,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,131.89,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="fill:white;stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,250,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="fill:rgb(255,0,0);stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,368.11,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="fill:white;stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,486.22,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,5.88499,236.449)">
+            <g transform="matrix(0.833333,0,0,0.92191,13.7795,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,131.89,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="fill:rgb(255,0,0);stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,250,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="fill:rgb(255,0,0);stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,368.11,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="fill:rgb(255,0,0);stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,486.22,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,5.90551,355.126)">
+            <g transform="matrix(0.833333,0,0,0.92191,13.7795,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,131.89,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="fill:white;stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,250,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="fill:rgb(255,0,0);stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,368.11,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="fill:white;stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,486.22,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,5.88499,473.047)">
+            <g transform="matrix(0.833333,0,0,0.92191,13.7795,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,131.89,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,250,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,368.11,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+            <g transform="matrix(0.833333,0,0,0.92191,486.22,4.79076)">
+                <ellipse cx="188.976" cy="180.57" rx="35.433" ry="32.029" style="stroke:black;stroke-width:1.14px;"/>
+            </g>
+        </g>
+    </g>
+    <g id="Text" transform="matrix(1,0,0,1,-98.4047,-98.4252)">
+        <g transform="matrix(1,0,0,1,12.2856,-2.53946)">
+            <g transform="matrix(25,0,0,25,182.336,703.185)">
+            </g>
+            <text x="147.582px" y="703.185px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:25px;">0,0</text>
+        </g>
+        <g>
+            <g transform="matrix(1,0,0,1,270.049,-240.193)">
+                <g transform="matrix(25,0,0,25,165.637,703.185)">
+                </g>
+                <text x="147.582px" y="703.185px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:25px;">i,j</text>
+            </g>
+            <g transform="matrix(1,0,0,1,388.684,-239.012)">
+                <g transform="matrix(25,0,0,25,194.14,703.185)">
+                </g>
+                <text x="147.582px" y="703.185px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:25px;">i+1,j</text>
+            </g>
+            <g transform="matrix(1,0,0,1,151.651,-240.193)">
+                <g transform="matrix(25,0,0,25,187.866,703.185)">
+                </g>
+                <text x="147.582px" y="703.185px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:25px;">i-1,j</text>
+            </g>
+            <g transform="matrix(1,0,0,1,270.049,-358.053)">
+                <g transform="matrix(25,0,0,25,194.14,703.185)">
+                </g>
+                <text x="147.582px" y="703.185px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:25px;">i,j+1</text>
+            </g>
+            <g transform="matrix(1,0,0,1,270.049,-121.439)">
+                <g transform="matrix(25,0,0,25,187.866,703.185)">
+                </g>
+                <text x="147.582px" y="703.185px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:25px;">i,j-1</text>
+            </g>
+        </g>
+        <g>
+            <g transform="matrix(1,0,0,1,149.303,-1.12642)">
+                <g transform="matrix(25,0,0,25,379.675,703.185)">
+                </g>
+                <text x="147.582px" y="703.185px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:25px;">Boundary Conditions</text>
+            </g>
+            <g transform="matrix(1,0,0,1,149.324,-563.922)">
+                <g transform="matrix(25,0,0,25,379.675,703.185)">
+                </g>
+                <text x="147.582px" y="703.185px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:25px;">Boundary Conditions</text>
+            </g>
+            <g transform="matrix(6.12323e-17,-1,1,6.12323e-17,-2.14739,677.529)">
+                <g transform="matrix(25,0,0,25,379.675,703.185)">
+                </g>
+                <text x="147.582px" y="703.185px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:25px;">Boundary Conditions</text>
+            </g>
+            <g transform="matrix(-1.83697e-16,1,-1,-1.83697e-16,828.382,149.405)">
+                <g transform="matrix(25,0,0,25,379.675,703.185)">
+                </g>
+                <text x="147.582px" y="703.185px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:25px;">Boundary Conditions</text>
+            </g>
+        </g>
+    </g>
+</svg>
